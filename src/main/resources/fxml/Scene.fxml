@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="339.0" prefWidth="572.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.grafica1.FXMLController">
+    <children>
+      <Canvas fx:id="canvas" height="318.0" layoutY="25.0" width="572.0" />
+      <MenuBar fx:id="menu" layoutY="2.0" prefHeight="25.0" prefWidth="572.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Dibujar">
+               <items>
+                  <MenuItem fx:id="rv" mnemonicParsing="false" onAction="#RV" text="Rectangulo verde" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="rr" mnemonicParsing="false" onAction="#RR" text="Rectangulo rojo relleno azul" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="tv" mnemonicParsing="false" onAction="#TV" text="Triangulo Verde" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="r" mnemonicParsing="false" onAction="#R" text="Rombo" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="lp" mnemonicParsing="false" onAction="#LP" text="Limpiar pantalla" />
+               </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>
