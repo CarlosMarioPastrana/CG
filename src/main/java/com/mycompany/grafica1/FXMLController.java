@@ -17,6 +17,8 @@ public class FXMLController implements Initializable {
     
     
     boolean mostrar;
+    
+    String string;
        
     @FXML
     private void RV(ActionEvent event)
